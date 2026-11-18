@@ -1,4 +1,4 @@
-=== PKart Product Attributes Display ===
+=== Product Attributes Display ===
 Contributors: pluginskart
 Tags: woocommerce, product attributes, blocks, product collection, site editor
 Requires at least: 6.5
@@ -13,7 +13,7 @@ Show WooCommerce product attributes like color, width, size, or material anywher
 
 == Description ==
 
-**PKart Product Attributes Display** adds a lightweight block that shows the value of any WooCommerce product attribute, right where you want it in your block theme.
+**Product Attributes Display** adds a lightweight block that shows the value of any WooCommerce product attribute, right where you want it in your block theme.
 
 By default, WooCommerce only lists attributes in the "Additional information" tab. With this plugin you can place individual attributes, such as *Color: Walnut, Natural Oak, Black* or *Width: 60, 90, 120 cm*, directly under the product title or price, inside product grids, or anywhere else in the Site Editor.
 
@@ -52,13 +52,13 @@ Every global attribute you create under **Products → Attributes** automaticall
 
 1. Make sure WooCommerce is installed and activated.
 2. In your WordPress dashboard, go to **Plugins → Add New Plugin**.
-3. Search for "PKart Product Attributes Display".
+3. Search for "Product Attributes Display".
 4. Click **Install Now**, then **Activate**.
 
 = Manual installation =
 
 1. Download the plugin ZIP file.
-2. Go to **Plugins → Add New Plugin → Upload Plugin** and upload the ZIP file, or extract it and upload the `pkart-product-attributes-display` folder to `/wp-content/plugins/`.
+2. Go to **Plugins → Add New Plugin → Upload Plugin** and upload the ZIP file, or extract it and upload the `product-attributes-display` folder to `/wp-content/plugins/`.
 3. Activate the plugin from **Plugins → Installed Plugins**.
 
 = After activation =
@@ -102,9 +102,9 @@ The block only outputs content when the current product has a value for the sele
 
 Yes. The block renders a paragraph with the class `wp-block-pkart-shop-attributes`, plus the attribute slug as an extra class (for example `pa_color`). Inside it you'll find:
 
-* `.wp-block-pkart-product-attributes-display__prefix`
-* `.wp-block-pkart-product-attributes-display__value`
-* `.wp-block-pkart-product-attributes-display__suffix`
+* `.wp-block-product-attributes-display__prefix`
+* `.wp-block-product-attributes-display__value`
+* `.wp-block-product-attributes-display__suffix`
 
 You can also add your own CSS class from the block's **Advanced** settings panel.
 
@@ -118,7 +118,7 @@ Yes. The plugin declares compatibility with High-Performance Order Storage and t
 
 = Is the plugin translation-ready? =
 
-Yes. All strings use the `pkart-product-attributes-display` text domain.
+Yes. All strings use the `product-attributes-display` text domain.
 
 == Screenshots ==
 

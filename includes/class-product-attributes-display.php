@@ -106,17 +106,17 @@ class Product_Attributes_Display {
 		$output = '<p ' . $wrapper_attributes . '>';
 
 		if ( '' !== $prefix ) {
-			$output .= '<span class="wp-block-pkart-product-attributes-display__prefix">'
+			$output .= '<span class="wp-block-product-attributes-display__prefix">'
 				. esc_html( $prefix )
 				. '</span>';
 		}
 
-		$output .= '<span class="wp-block-pkart-product-attributes-display__value">'
+		$output .= '<span class="wp-block-product-attributes-display__value">'
 			. esc_html( $value )
 			. '</span>';
 
 		if ( '' !== $suffix ) {
-			$output .= '<span class="wp-block-pkart-product-attributes-display__suffix">'
+			$output .= '<span class="wp-block-product-attributes-display__suffix">'
 				. esc_html( $suffix )
 				. '</span>';
 		}
@@ -155,7 +155,7 @@ class Product_Attributes_Display {
 					/* translators: %s: attribute label */
 					__(
 						'Display the assigned value of the attribute: %s',
-						'pkart-product-attributes-display'
+						'product-attributes-display'
 					),
 					$name
 				),

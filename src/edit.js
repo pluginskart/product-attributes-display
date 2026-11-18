@@ -9,7 +9,7 @@ export default function Edit( { attributes, setAttributes } ) {
 	const label =
 		attributeName ||
 		attributeSlug ||
-		__( 'Select a product attribute', 'pkart-product-attributes-display' );
+		__( 'Select a product attribute', 'product-attributes-display' );
 
 	return (
 		<>
@@ -17,7 +17,7 @@ export default function Edit( { attributes, setAttributes } ) {
 				<PanelBody
 					title={ __(
 						'Attribute settings',
-						'pkart-product-attributes-display'
+						'product-attributes-display'
 					) }
 				>
 					<TextControl
@@ -25,11 +25,11 @@ export default function Edit( { attributes, setAttributes } ) {
 						__next40pxDefaultSize
 						label={ __(
 							'Attribute slug',
-							'pkart-product-attributes-display'
+							'product-attributes-display'
 						) }
 						help={ __(
 							'Global attributes use the "pa_" prefix, for example pa_color. Custom attributes use their name, for example material.',
-							'pkart-product-attributes-display'
+							'product-attributes-display'
 						) }
 						value={ attributeSlug }
 						onChange={ ( value ) =>
@@ -44,7 +44,7 @@ export default function Edit( { attributes, setAttributes } ) {
 						__next40pxDefaultSize
 						label={ __(
 							'Prefix',
-							'pkart-product-attributes-display'
+							'product-attributes-display'
 						) }
 						value={ prefix }
 						onChange={ ( value ) =>
@@ -57,7 +57,7 @@ export default function Edit( { attributes, setAttributes } ) {
 						__next40pxDefaultSize
 						label={ __(
 							'Suffix',
-							'pkart-product-attributes-display'
+							'product-attributes-display'
 						) }
 						value={ suffix }
 						onChange={ ( value ) =>
@@ -69,17 +69,17 @@ export default function Edit( { attributes, setAttributes } ) {
 
 			<p { ...blockProps }>
 				{ prefix && (
-					<span className="wp-block-pkart-product-attributes-display__prefix">
+					<span className="wp-block-product-attributes-display__prefix">
 						{ prefix }
 					</span>
 				) }
 
-				<span className="wp-block-pkart-product-attributes-display__value shop-attributes__placeholder">
+				<span className="wp-block-product-attributes-display__value shop-attributes__placeholder">
 					{ label }
 				</span>
 
 				{ suffix && (
-					<span className="wp-block-pkart-product-attributes-display__suffix">
+					<span className="wp-block-product-attributes-display__suffix">
 						{ suffix }
 					</span>
 				) }

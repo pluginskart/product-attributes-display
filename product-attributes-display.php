@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name:       PKart Product Attributes Display
- * Plugin URI:        https://github.com/pluginskart/pkart-product-attributes-display
+ * Plugin Name:       Product Attributes Display
+ * Plugin URI:        https://github.com/pluginskart/product-attributes-display
  * Description:       Displays WooCommerce product attributes inside product blocks.
  * Version:           1.0.0
  * Requires at least: 6.5
@@ -11,7 +11,7 @@
  * Author URI:        https://pluginskart.com
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       pkart-product-attributes-display
+ * Text Domain:       product-attributes-display
  *
  * WC requires at least: 8.0
  * WC tested up to:      10.7

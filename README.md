@@ -1,4 +1,4 @@
-# PKart Product Attributes Display
+# Product Attributes Display
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![WordPress](https://img.shields.io/badge/WordPress-6.5%2B-21759b)
@@ -38,14 +38,14 @@ A block theme (or a theme that supports block templates) is required to place th
 
 **From WordPress.org**
 
-1. Go to **Plugins → Add New Plugin** and search for "PKart Product Attributes Display".
+1. Go to **Plugins → Add New Plugin** and search for "Product Attributes Display".
 2. Click **Install Now**, then **Activate**.
 
 **From source**
 
 ```bash
 cd wp-content/plugins
-git clone https://github.com/pluginskart/pkart-product-attributes-display.git
+git clone https://github.com/pluginskart/product-attributes-display.git
 ```
 
 The compiled block is committed in `build/`, so no build step is needed.
@@ -78,9 +78,9 @@ Example output for a block with the prefix `Width: ` and the suffix ` cm`:
 
 ```html
 <p class="wp-block-pkart-shop-attributes pa_width">
-	<span class="wp-block-pkart-product-attributes-display__prefix">Width: </span>
-	<span class="wp-block-pkart-product-attributes-display__value">60, 90, 120</span>
-	<span class="wp-block-pkart-product-attributes-display__suffix"> cm</span>
+	<span class="wp-block-product-attributes-display__prefix">Width: </span>
+	<span class="wp-block-product-attributes-display__value">60, 90, 120</span>
+	<span class="wp-block-product-attributes-display__suffix"> cm</span>
 </p>
 ```
 
@@ -88,9 +88,9 @@ Example output for a block with the prefix `Width: ` and the suffix ` cm`:
 | ----- | ------- |
 | `.wp-block-pkart-shop-attributes` | Block wrapper |
 | `.pa_width`, `.thickness`, … | Selected attribute slug |
-| `.wp-block-pkart-product-attributes-display__prefix` | Prefix text |
-| `.wp-block-pkart-product-attributes-display__value` | Attribute values |
-| `.wp-block-pkart-product-attributes-display__suffix` | Suffix text |
+| `.wp-block-product-attributes-display__prefix` | Prefix text |
+| `.wp-block-product-attributes-display__value` | Attribute values |
+| `.wp-block-product-attributes-display__suffix` | Suffix text |
 
 ## Development
 
