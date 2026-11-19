@@ -3,9 +3,9 @@ Contributors: pluginskart
 Tags: woocommerce, product attributes, blocks, product collection, site editor
 Requires at least: 6.5
 Tested up to: 7.1
-Requires PHP: 7.4
+Requires PHP: 8.1
 Requires Plugins: woocommerce
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,7 +17,7 @@ Show WooCommerce product attributes like color, width, size, or material anywher
 
 By default, WooCommerce only lists attributes in the "Additional information" tab. With this plugin you can place individual attributes, such as *Color: Walnut, Natural Oak, Black* or *Width: 60, 90, 120 cm*, directly under the product title or price, inside product grids, or anywhere else in the Site Editor.
 
-Every global attribute you create under **Products → Attributes** automatically appears in the block inserter as its own block, named after the attribute. Insert it, optionally add a prefix and suffix, and you're done.
+Create or reuse attributes under **Products → Attributes**, or add custom attributes to individual products. Each global attribute automatically appears in the block inserter as its own block, named after the attribute. Insert it, optionally add a prefix and suffix, and you’re done.
 
 = Features =
 
@@ -84,7 +84,7 @@ Anywhere a product is available as block context: the Single Product template, i
 
 = My attribute does not appear in the block inserter. Why? =
 
-Automatic blocks are created only for **global** attributes, which are managed under **Products → Attributes**. Create the attribute there and it will appear in the inserter, searchable by its name.
+Automatic blocks are created only for **global** attributes managed under **Products → Attributes**. Create an attribute there, and it will automatically appear in the block inserter, searchable by its name. You can also add custom attributes directly to individual products.
 
 = How do I display a custom (product-level) attribute? =
 
@@ -122,22 +122,20 @@ Yes. All strings use the `product-attributes-display` text domain.
 
 == Screenshots ==
 
-1. Product attributes displayed on the single product page: Color, Width, Height, and Thickness, with prefixes and units.
-2. Each global attribute is available as its own block in the Site Editor, with Attribute slug, Prefix, and Suffix settings in the sidebar.
-3. Attributes are managed in the standard WooCommerce product data panel. Both global and custom attributes are supported.
-
-== Screenshots ==
-
 1. Block variations for each global WooCommerce attribute in the Site Editor, with Attribute slug, Prefix, and Suffix settings in the block sidebar.
 2. Product attribute values on the front end, displayed as comma-separated lists with prefix and suffix text.
 3. Global and custom attributes assigned to a product in the WooCommerce Attributes tab, ready to be displayed by the blocks.
 
 == Changelog ==
 
+= 1.0.1 =
+* Renamed plugin to "Product Attributes Display".
+* Main plugin file renamed. Please reactivate the plugin after updating.
+
 = 1.0.0 =
 * Initial release.
 
 == Upgrade Notice ==
 
-= 1.0.0 =
-Initial release.
+= 1.0.1 =
+Main plugin file renamed. The plugin will be deactivated after updating — please reactivate it from Plugins.

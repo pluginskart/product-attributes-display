@@ -102,6 +102,10 @@ Example output for a block with the prefix `Width: ` and the suffix ` cm`:
 
 ## Changelog
 
+### 1.0.1
+* Renamed plugin to "Product Attributes Display".
+* Main plugin file renamed. Please reactivate the plugin after updating.
+
 ### 1.0.0
 
 - Initial release.
